@@ -1,0 +1,9 @@
+---
+daisy:
+  pack:
+    name: Bandages for the Orphans
+    version: 1.0.0
+    author: Ryan Fahey
+    homepage: https://github.com/rfahey79/ac-mod-bandage-quests
+    source: packs/afkaygo/bandage_quests/src
+    build: packs/afkaygo/bandage_quests/build

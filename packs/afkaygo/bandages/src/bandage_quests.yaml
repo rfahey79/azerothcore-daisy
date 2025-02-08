@@ -1,0 +1,247 @@
+entry_ids:
+  custom:
+    pa_thomas_quest_id: &pa_thomas_quest_id 35000
+    pa_thomas_quest_id1: &pa_thomas_quest_id1 35001
+    pa_thomas_quest_id2: &pa_thomas_quest_id2 35002
+    pa_thomas_quest_id3: &pa_thomas_quest_id3 35003
+    pa_thomas_quest_id4: &pa_thomas_quest_id4 35004
+    pa_thomas_quest_id5: &pa_thomas_quest_id5 35005
+    pa_thomas_quest_id6: &pa_thomas_quest_id6 35006
+    pa_thomas_quest_id7: &pa_thomas_quest_id7 35007
+    pa_thomas_quest_id8: &pa_thomas_quest_id8 35008
+    pa_thomas_quest_id9: &pa_thomas_quest_id9 35009
+  
+    bandage_linen: &bandage_linen 1251
+    bandage_heavy_linen: &bandage_heavy_linen 2581
+    bandage_wool: &bandage_wool 3530
+    bandage_heavy_wool: &bandage_heavy_wool 3531
+    bandage_silk: &bandage_silk 6450
+    bandage_heavy_silk: &bandage_heavy_silk 6451
+    bandage_mageweave: &bandage_mageweave 8544
+    bandage_heavy_mageweave: &bandage_heavy_mageweave 8545
+    bandage_runecloth: &bandage_runecloth 14529
+    bandage_heavy_runecloth: &bandage_heavy_runecloth 14530
+
+  npcs:
+    npc_thomas_id: &npc_thomas_id 4982
+
+tables:
+  quest_template:
+    - id: *pa_thomas_quest_id
+      questtype: *QUEST_TYPE_ENABLED
+      questlevel: 5
+      minlevel: 1
+      rewardmoney: 260
+      logtitle: Linen Bandages for the Orphans
+      logdescription: Looks like Thomas wants you to do some leg-work for him.
+      questdescription: |
+        Hey there $N! You don't happen to have any spare bandages do ya? Miss Nightingale over at the orphanage sent me to gather some for the orphans running around getting scrapes an' such, but I'm not runnin' around all of Stormwind tryna find 'em. If you could spare some I'd appreciate ya.
+      questcompletionlog: |
+        Nice! You won't mind me taking all the credit for finding these.
+      objectivetext1: 'Give Thomas 5 Linen Bandages'
+      requireditemid1: *bandage_linen
+      requireditemcount1: 5
+
+    - id: *pa_thomas_quest_id1
+      questtype: *QUEST_TYPE_ENABLED
+      questlevel: 5
+      minlevel: 1
+      rewardmoney: 520
+      logtitle: Heavy Linen Bandages for the Orphans
+      logdescription: Looks like Thomas wants you to do some leg-work for him.
+      questdescription: |
+        Hey there $N! You don't happen to have any spare bandages do ya? Miss Nightingale over at the orphanage sent me to gather some for the orphans running around getting scrapes an' such, but I'm not runnin' around all of Stormwind tryna find 'em. If you could spare some I'd appreciate ya.
+      questcompletionlog: |
+        Nice! You won't mind me taking all the credit for finding these.
+      objectivetext1: 'Give Thomas 5 Linen Bandages'
+      requireditemid1: *bandage_heavy_linen
+      requireditemcount1: 5
+
+    - id: *pa_thomas_quest_id2
+      questtype: *QUEST_TYPE_ENABLED
+      questlevel: 5
+      minlevel: 1
+      rewardmoney: 780
+      logtitle: Wool Bandages for the Orphans
+      logdescription: Looks like Thomas wants you to do some leg-work for him.
+      questdescription: |
+        Hey there $N! You don't happen to have any spare bandages do ya? Miss Nightingale over at the orphanage sent me to gather some for the orphans running around getting scrapes an' such, but I'm not runnin' around all of Stormwind tryna find 'em. If you could spare some I'd appreciate ya.
+      questcompletionlog: |
+        Nice! You won't mind me taking all the credit for finding these.
+      objectivetext1: 'Give Thomas 5 Linen Bandages'
+      requireditemid1: *bandage_wool
+      requireditemcount1: 5
+
+    - id: *pa_thomas_quest_id3
+      questtype: *QUEST_TYPE_ENABLED
+      questlevel: 5
+      minlevel: 1
+      rewardmoney: 1040
+      logtitle: Heavy Wool Bandages for the Orphans
+      logdescription: Looks like Thomas wants you to do some leg-work for him.
+      questdescription: |
+        Hey there $N! You don't happen to have any spare bandages do ya? Miss Nightingale over at the orphanage sent me to gather some for the orphans running around getting scrapes an' such, but I'm not runnin' around all of Stormwind tryna find 'em. If you could spare some I'd appreciate ya.
+      questcompletionlog: |
+        Nice! You won't mind me taking all the credit for finding these.
+      objectivetext1: 'Give Thomas 5 Linen Bandages'
+      requireditemid1: *bandage_heavy_wool
+      requireditemcount1: 5
+
+    - id: *pa_thomas_quest_id4
+      questtype: *QUEST_TYPE_ENABLED
+      questlevel: 5
+      minlevel: 1
+      rewardmoney: 1300
+      logtitle: Silk Bandages for the Orphans
+      logdescription: Looks like Thomas wants you to do some leg-work for him.
+      questdescription: |
+        Hey there $N! You don't happen to have any spare bandages do ya? Miss Nightingale over at the orphanage sent me to gather some for the orphans running around getting scrapes an' such, but I'm not runnin' around all of Stormwind tryna find 'em. If you could spare some I'd appreciate ya.
+      questcompletionlog: |
+        Nice! You won't mind me taking all the credit for finding these.
+      objectivetext1: 'Give Thomas 5 Linen Bandages'
+      requireditemid1: *bandage_silk
+      requireditemcount1: 5
+
+    - id: *pa_thomas_quest_id5
+      questtype: *QUEST_TYPE_ENABLED
+      questlevel: 5
+      minlevel: 1
+      rewardmoney: 1560
+      logtitle: Heavy Silk Bandages for the Orphans
+      logdescription: Looks like Thomas wants you to do some leg-work for him.
+      questdescription: |
+        Hey there $N! You don't happen to have any spare bandages do ya? Miss Nightingale over at the orphanage sent me to gather some for the orphans running around getting scrapes an' such, but I'm not runnin' around all of Stormwind tryna find 'em. If you could spare some I'd appreciate ya.
+      questcompletionlog: |
+        Nice! You won't mind me taking all the credit for finding these.
+      objectivetext1: 'Give Thomas 5 Linen Bandages'
+      requireditemid1: *bandage_heavy_silk
+      requireditemcount1: 5
+
+    - id: *pa_thomas_quest_id6
+      questtype: *QUEST_TYPE_ENABLED
+      questlevel: 5
+      minlevel: 1
+      rewardmoney: 1820
+      logtitle: Mageweave Bandages for the Orphans
+      logdescription: Looks like Thomas wants you to do some leg-work for him.
+      questdescription: |
+        Hey there $N! You don't happen to have any spare bandages do ya? Miss Nightingale over at the orphanage sent me to gather some for the orphans running around getting scrapes an' such, but I'm not runnin' around all of Stormwind tryna find 'em. If you could spare some I'd appreciate ya.
+      questcompletionlog: |
+        Nice! You won't mind me taking all the credit for finding these.
+      objectivetext1: 'Give Thomas 5 Linen Bandages'
+      requireditemid1: *bandage_mageweave
+      requireditemcount1: 5
+
+    - id: *pa_thomas_quest_id7
+      questtype: *QUEST_TYPE_ENABLED
+      questlevel: 5
+      minlevel: 1
+      rewardmoney: 2080
+      logtitle: Heavy Mageweave Bandages for the Orphans
+      logdescription: Looks like Thomas wants you to do some leg-work for him.
+      questdescription: |
+        Hey there $N! You don't happen to have any spare bandages do ya? Miss Nightingale over at the orphanage sent me to gather some for the orphans running around getting scrapes an' such, but I'm not runnin' around all of Stormwind tryna find 'em. If you could spare some I'd appreciate ya.
+      questcompletionlog: |
+        Nice! You won't mind me taking all the credit for finding these.
+      objectivetext1: 'Give Thomas 5 Linen Bandages'
+      requireditemid1: *bandage_heavy_mageweave
+      requireditemcount1: 5
+
+    - id: *pa_thomas_quest_id8
+      questtype: *QUEST_TYPE_ENABLED
+      questlevel: 5
+      minlevel: 1
+      rewardmoney: 2340
+      logtitle: Runecloth Bandages for the Orphans
+      logdescription: Looks like Thomas wants you to do some leg-work for him.
+      questdescription: |
+        Hey there $N! You don't happen to have any spare bandages do ya? Miss Nightingale over at the orphanage sent me to gather some for the orphans running around getting scrapes an' such, but I'm not runnin' around all of Stormwind tryna find 'em. If you could spare some I'd appreciate ya.
+      questcompletionlog: |
+        Nice! You won't mind me taking all the credit for finding these.
+      objectivetext1: 'Give Thomas 5 Linen Bandages'
+      requireditemid1: *bandage_runecloth
+      requireditemcount1: 5
+
+    - id: *pa_thomas_quest_id9
+      questtype: *QUEST_TYPE_ENABLED
+      questlevel: 5
+      minlevel: 1
+      rewardmoney: 2600
+      logtitle: Heavy Runecloth Bandages for the Orphans
+      logdescription: Looks like Thomas wants you to do some leg-work for him.
+      questdescription: |
+        Hey there $N! You don't happen to have any spare bandages do ya? Miss Nightingale over at the orphanage sent me to gather some for the orphans running around getting scrapes an' such, but I'm not runnin' around all of Stormwind tryna find 'em. If you could spare some I'd appreciate ya.
+      questcompletionlog: |
+        Nice! You won't mind me taking all the credit for finding these.
+      objectivetext1: 'Give Thomas 5 Linen Bandages'
+      requireditemid1: *bandage_heavy_runecloth
+      requireditemcount1: 5
+
+  quest_offer_reward:
+    - id: *npc_thomas_id
+      rewardtext: |
+        I know it's cheaper to just sell these, here's a little extra for thinking of the orphans.
+  
+  creature_queststarter:
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id1
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id2
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id3
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id4
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id5
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id6
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id7
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id8
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id9
+
+  creature_questender:
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id1
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id2
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id3
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id4
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id5
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id6
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id7
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id8
+
+    - id: *npc_thomas_id
+      quest: *pa_thomas_quest_id9
+
+
