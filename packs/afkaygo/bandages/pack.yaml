@@ -5,5 +5,5 @@ daisy:
     version: 1.0.0
     author: Ryan Fahey
     homepage: https://github.com/rfahey79/ac-mod-bandage-quests
-    source: packs/afkaygo/bandage_quests/src
-    build: packs/afkaygo/bandage_quests/build
+    source: packs/afkaygo/bandages/src
+    build: packs/afkaygo/bandages/build
